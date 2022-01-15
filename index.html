@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="visually-hidden">Current Balanse</h1>
+
+    <form class="box__form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+
+      <div class="box__left">
+
+        <span class="box__subtitle">
+          <h2 class="box__card-title">My Wallets</h2>
+          <a class="box__link" href="#" target="_blank">
+            <img class="box__img-plus" src="./img/plus.svg" alt="">
+          </a>
+        </span>
+
+        <label>
+          <input type="radio" name="card" class="visually-hidden" value="Visa">
+          <div class="card">
+            <img src="./img/visa.svg" alt="card visa img" class="card__img">
+            <p class="card__number">**** **** **** 2562</p>
+            <span class="card__tem">Valid thru 12/17</span>
+          </div>
+        </label>
+  
+        <label>
+              <input type="radio" name="card" class="visually-hidden" value="MasterCard">
+              <div class="card">
+                <img src="./img/mastercard.svg" alt="card visa img" class="card__img">
+                <p class="card__number">**** **** **** 2101</p>
+                <span class="card__tem">Valid thru 07/19</span>
+              </div>
+        </label>
+  
+        <label>
+              <input type="radio" name="card" class="visually-hidden" value="Maestro">
+              <div class="card">
+                <img src="./img/maestro.svg" alt="card visa img" class="card__img">
+                <p class="card__number">**** **** **** 8335</p>
+                <span class="card__tem">Valid thru 09/17</span>
+              </div>
+        </label>
+
+      </div>
+
+      <div class="box__right">
+        <span class="block">
+          <h2 class="block__title">Current Balance</h2>
+          <span class="currency">
+            $729.<sup>00</sup>
+          </span>
+        </span>
+        <label class="data">
+          <input class="visually-hidden" name="product" type="checkbox" value="Apple iPhone 7, 128 GB">
+          <span class="circle"></span>
+          <span>
+            <p class="circle__title">Apple iPhone 7, 128 GB</p>
+            <p class="circle__title-sm">Electronics #3234324 - 12 July 2015</p>
+          </span>
+
+          <span class="circle__pay">
+            $650.<sup>00</sup>
+          </span>
+        </label>
+
+        <label class="data">
+          <input class="visually-hidden" name="product" type="checkbox" value="Funds Added">
+          <span class="circle"></span>
+          <span>
+            <p class="circle__title">Funds Added</p>
+            <p class="circle__title-sm">Payment #5435 - 11 July 2015</p>
+          </span>
+
+          <span class="circle__pay">
+            $900.<sup>00</sup>
+          </span>
+        </label>
+
+        <label class="data">
+          <input class="visually-hidden" name="product" type="checkbox" value="Energy Bill">
+          <span class="circle"></span>
+          <span>
+            <p class="circle__title">Energy Bill</p>
+            <p class="circle__title-sm">other #745137423 - 12 July 2015</p>
+          </span>
+
+          <span class="circle__pay">
+            $84.<sup>90</sup>
+          </span>
+        </label>
+
+        <label class="data">
+          <input class="visually-hidden" name="product" type="checkbox" value="The Eye Cenema Ticket">
+          <span class="circle"></span>
+          <span>
+            <p class="circle__title">The Eye Cenema Ticket</p>
+            <p class="circle__title-sm">Electronics #32343424 - 10 July 2015</p>
+          </span>
+
+          <span class="circle__pay">
+            $40.<sup>00</sup>
+          </span>
+        </label>
+        <span class="btn">
+          <button class="btn__submit" type="reset">Cancel The Order</button>
+          <button class="btn__submit" type="submit">Place An Order</button>
+        </span>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
